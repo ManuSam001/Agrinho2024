@@ -1,19 +1,47 @@
-.container {
-    display: flex;
-    justify-content: space-around;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f0; /* Verde claro */
+    margin: 0;
+    padding: 0;
 }
 
-.campo-section, .cidade-section {
-    width: 45%;
+header {
+    background-color: #3b7d3b; /* Verde escuro */
+    color: #fff;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
-.campo-section {
-    background-color: #9ACD32; /* Verde Claro */
+header h1 {
+    margin: 0;
 }
 
-.cidade-section {
-    background-color: #556B2F; /* Verde Oliva */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+section h2 {
+    color: #3b7d3b; /* Verde escuro */
+}
+
+footer {
+    background-color: #3b7d3b; /* Verde escuro */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
 }
