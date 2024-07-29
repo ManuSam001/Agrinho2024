@@ -1,4 +1,5 @@
 body{
     background: linear-gradient(rgb(255, 255, 255),rgb(62, 133, 46));
+    background-image: none;
     padding-bottom: 30%;
 }
